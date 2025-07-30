@@ -343,6 +343,42 @@
             background-color: #6A1B9A;
             border-color: #6A1B9A;
         }
+                #sports-bulletins {
+            padding: 80px 0;
+            background-color: #000000; /* Black background matching body */
+            color: #f8f9fa;
+            text-align: center;
+        }
+        #sports-bulletins .bulletin-embed-container {
+            width: 100%;
+            max-width: 900px; /* Max width for better readability */
+            height: 600px; /* Adjust height as needed */
+            margin: 0 auto;
+            border: 1px solid #333;
+            border-radius: 10px;
+            overflow: hidden; /* Ensures content stays within rounded borders */
+        }
+        #sports-bulletins iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* No border for the iframe itself */
+        }
+        #sports-bulletins .btn-bulletin {
+            background-color: #40ED8E; /* Green button */
+            border-color: #40ED8E;
+            color: #000000; /* Black text for contrast */
+            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+            margin-top: 20px; /* Space between text and button */
+        }
+        #sports-bulletins .btn-bulletin:hover {
+            background-color: #28a745; /* Darker green on hover */
+            border-color: #28a745;
+            transform: translateY(-2px);
+        }
 
         footer {
             background-color: #1a1a1a;
